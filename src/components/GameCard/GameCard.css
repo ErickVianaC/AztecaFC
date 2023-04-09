@@ -96,9 +96,10 @@
       justify-content: center;
     }
 
-    .countdown {
-     align-items: center;
+    .countdown-time {
+      align-items: center;
       justify-content: center;
+      display: none;
     }
 
     .teams img {
