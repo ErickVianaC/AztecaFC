@@ -17,17 +17,17 @@ class PlayerCard extends React.Component{
         </div>
         <div className='mid'>
             <img src={player.image} className='image_player' alt={`Imagem do jogador ${player.name}`}/>
-            <div className='player-name'>{player.name}</div>
+            <p className='player-name'>{player.name}</p>
         </div>
         <div className='bot_info'>
-            <div className='info_age'>AGE</div>
-            <div className='info_position'>POSITION</div>
-            <div className='info_heigth'>HEIGTH</div>
+            <p className='info_age'>AGE</p>
+            <p className='info_position'>POSITION</p>
+            <p className='info_heigth'>HEIGTH</p>
         </div>
          <div className='bot_values'>
-            <div className='player-age'>{player.age}</div>
-            <div className='player-position'>{player.position}</div>
-            <div className='player-heigth'>{player.height}</div>
+            <p className='player-age'>{player.age}</p>
+            <p className='player-position'>{player.position}</p>
+            <p className='player-heigth'>{player.height}</p>
         </div>
     </div>
   )

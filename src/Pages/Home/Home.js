@@ -54,7 +54,7 @@ export default function Home() {
         <section aria-label='seção curriculo download Erick' className='section-div'>
             <div>
                 <h2>SEJA BEM-VINDO</h2>
-                <p>Junte-se a nós e descubra a paixão pelo futebol em uma equipe dedicada e com espírito esportivo. Temos treinos regulares, jogos emocionantes e uma comunidade vibrante que adora se reunir fora dos campos também. Venha fazer parte da nossa família Azteca!</p>
+                <p className='initial-text'>Junte-se a nós e descubra a paixão pelo futebol em uma equipe dedicada e com espírito esportivo. Temos treinos regulares, jogos emocionantes e uma comunidade vibrante que adora se reunir fora dos campos também. Venha fazer parte da nossa família Azteca!</p>
                 <h2 className='digitando'> {utilsFunctions.TypingEffect('#AvanteAzteca')}</h2>
 
             </div>

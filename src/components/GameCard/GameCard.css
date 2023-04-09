@@ -82,4 +82,53 @@
     background-color: #707070;
     width: 2px;
     height: 100px;
+  }
+  
+  @media(max-width: 445px) {
+    
+    .game-card {
+      display: block;
+      height: 100%;
+    }
+
+    .teams {
+      align-items: center;
+      justify-content: center;
+    }
+
+    .countdown {
+     align-items: center;
+      justify-content: center;
+    }
+
+    .teams img {
+      width: 70px;
+      height: 70px;
+      margin: 0 10px;
+    }
+
+    .game-time {
+      font-size: 1.1rem;
+      margin: 0;
+    }
+
+    .hora_e_data {
+      display: block;
+      padding-bottom: 10px;
+    }
+
+    .hora_e_data div {
+      display: flex;
+    }
+
+    .game-weekday {
+      justify-content: center;
+      align-self: center;
+      padding-right: 5px;
+    }
+
+    .game-date {
+      padding: 0;
+      margin: 0;
+    }
 }

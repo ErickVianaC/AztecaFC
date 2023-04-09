@@ -118,12 +118,12 @@ main .services {
     color: white; */
 }
 
-.div_services div i {
+/* .div_services div i {
     color: #fdce04;
     font-size: 5rem;
     z-index: 10;
     cursor: pointer;
-}
+} */
 
 .div_services div a {
     color: #fdce04;
@@ -173,4 +173,10 @@ main .services {
     .sobre_conteudo {
         grid-column: 1/-1;
     }
+}
+
+@media(max-width: 445px) {
+  .all-Games {
+    height: 100%;
+}
 }

@@ -210,3 +210,44 @@
 }
 
 
+@media(max-width: 445px) {
+    .div-card {
+      width: 150px;
+      height: 275px;
+    }
+
+    .bot_info p {
+      font-size: 10px;
+      padding: 5px;
+    }
+
+    .bot_values p {
+      font-size: 15px;
+      padding-bottom: 15px;
+    }
+
+    .player-name {
+      margin: 5px;
+      font-size: 12px;
+    }
+
+    .player-number {
+      font-size: 25px;
+    }
+
+    .shield {
+      height: 25px;
+      width: 25px;
+    }
+
+    .image_player {
+    height: 100px;
+    width: 100%;
+    }
+
+    .mid {
+      display: block;
+      padding-top: 19px;
+    }
+
+ }
