@@ -1,0 +1,85 @@
+.game-card {
+  display: flex;
+  /* flex-direction: column; */
+  align-items: center;
+  justify-content: space-around;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  background-color: #111;
+  max-width: 500px;
+  margin: 0 auto;
+  margin-bottom: 50px;
+}
+
+.left{
+ align-items: center;
+}
+
+.hora_e_data{
+    display: flex;
+    justify-content: space-between;
+}
+
+.teams {
+  display: flex;
+  align-items: center;
+}
+
+.teams img {
+  width: 50px;
+  height: 50px;
+  margin: 0 10px;
+}
+
+.versus {
+  font-size: 24px;
+  font-weight: bold;
+  color: #666;
+}
+
+.countdown {
+  margin-top: 20px;
+  font-size: 20px;
+  color: #fff;
+  display: flex;
+  align-items: center;
+}
+
+
+.countdown-time {
+  font-weight: bold;
+}
+
+.game-info {
+  margin-top: 20px;
+  font-size: 16px;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.game-time {
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.game-weekday {
+  text-align: left;
+  font-weight: bold;
+  /* margin-bottom: 10px; */
+}
+
+.game-date {
+    font-size: 2.3rem;
+    margin-right: 15px;
+}
+
+.meiuca {
+    background-color: #707070;
+    width: 2px;
+    height: 100px;
+}

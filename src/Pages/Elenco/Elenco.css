@@ -1,0 +1,64 @@
+/* *{
+  background-color: #111;
+} */
+
+.players{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.player_card{
+    max-width: 100%;
+    display: block;
+}
+
+.player_card h1 {
+    color: #fdce04;
+    padding-top: 80px;
+    text-align: center;
+}
+
+.elenco{
+    /* margin-top: 200px; */
+    display: block;
+    background-color: #111;
+    height: 100%;
+    border-bottom: rgba(112, 117, 117, 0.5) solid;
+}
+
+.elenco_titulo {
+    grid-column: 1/ -1;
+    text-align: center;
+    color: #fff;
+    background-color: #111;
+}
+
+.elenco_titulo h1 {
+    font-size: 2.5rem;
+    color: #fdce04;
+    margin-bottom: 15px;
+    font-family: 'Berkshire Swash', cursive;
+    padding-top: 15px;
+}
+
+.elenco_titulo p {
+    color: #707070;
+    font-size: 1.4rem;
+    margin-bottom: 1rem;
+    position: relative;
+}
+
+.elenco_titulo div {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
+
+.elenco_titulo span {
+    display: block;
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    background-color: #d88913;
+}
