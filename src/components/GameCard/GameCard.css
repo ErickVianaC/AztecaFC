@@ -13,8 +13,18 @@
   margin-bottom: 50px;
 }
 
+.placar{
+  color: #fff;
+  justify-content: space-between;
+  font-size: 1.3rem;
+  padding-top: 5px;
+  /* border: #ccc solid; */
+  gap: 10px;
+}
+
 .left{
- align-items: center;
+  text-align: center;
+  align-items: center;
 }
 
 .hora_e_data{
@@ -25,6 +35,7 @@
 .teams {
   display: flex;
   align-items: center;
+  padding-bottom: 15px;
 }
 
 .teams img {

@@ -18,7 +18,6 @@ class Elenco extends React.Component {
               <span></span>
               <span></span>
               <span></span>
-              <span></span>
             </div>
       </div>
       
@@ -34,6 +33,13 @@ class Elenco extends React.Component {
         <div className='players'>
           {AllPlayers
           .filter((obj) => (obj.position === 'Fixo'))
+          .map((player) => (<PlayerCard player={ player }/>))
+           }
+        </div>
+        <h1>Ala</h1>
+        <div className='players'>
+          {AllPlayers
+          .filter((obj) => (obj.position === 'Meia'))
           .map((player) => (<PlayerCard player={ player }/>))
            }
         </div>

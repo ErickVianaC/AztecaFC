@@ -1,5 +1,5 @@
 import React from 'react'
-import picture from '../../images/Time/elenco23.jpg'
+import picture from '../../images/Time/azeca.jpeg'
 import "./Historia.css"
 
 
@@ -10,7 +10,7 @@ export default function historia() {
             <article aria-label='seção sobre mim' className='sobre'>
                 <div className='sobre_titulo'>
                     
-                    <h1>Historia</h1>
+                    <h1>História</h1>
                     <p>Azteca Futebol Clube</p>
                     <div aria-label='seção apenas de ilustrações de botoes'>
                         <span></span>
@@ -26,10 +26,10 @@ export default function historia() {
                         </p>
                     </div>
                     <div className='sobre_info'>
-                        <p><i class="fa-solid fa-calendar-days"></i> Fundação: 15 Fevereiro 2015</p>
-                        <p><i class="fa-sharp fa-solid fa-location-dot"></i> Local: Campo do Motivo, Cidade Continental, Serra - ES</p>
-                        {/* <p><i class="fa-solid fa-flag"></i> Country: Brazilian</p> */}
-                        {/* <p><i class="fa-solid fa-envelope"></i> Email: suporte.aztecafc@gmail.com</p> */}
+                        <p><i className="fa-solid fa-calendar-days"></i> Fundação: 15 Fevereiro 2015</p>
+                        <p><i className="fa-sharp fa-solid fa-location-dot"></i> Local: Campo do Motivo, Cidade Continental, Serra - ES</p>
+                        {/* <p><i className="fa-solid fa-flag"></i> Country: Brazilian</p> */}
+                        {/* <p><i className="fa-solid fa-envelope"></i> Email: suporte.aztecafc@gmail.com</p> */}
                     </div>
                 </div>
             </article>

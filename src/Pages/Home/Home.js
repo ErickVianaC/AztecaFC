@@ -8,9 +8,7 @@ export default function Home() {
   
   const toogleMenu = () => {
     const ativaMenu = document.querySelector('.fa-bars')
-    ativaMenu.addEventListener('click', () => {
       ativaMenu.classList.toggle('fa-x')
-    })
   }
 
   const links = document.querySelectorAll('.scroll');
@@ -41,15 +39,15 @@ export default function Home() {
 
         <nav>
             <ul className='navegacao-primaria'>
-                <li><a href='#home' class="scroll">Home</a></li>
-                <li><a href='#historia' class="scroll">Historia</a></li>
-                <li><a href='#elenco' class="scroll">Elenco</a></li>
-                <li><a href='#redes' class="scroll">Midias</a></li>
-                <li><a href='#jogos' class="scroll">Jogos</a></li>
+                <li><a href='#home' className="scroll">Home</a></li>
+                <li><a href='#historia' className="scroll">Historia</a></li>
+                <li><a href='#elenco' className="scroll">Elenco</a></li>
+                <li><a href='#redes' className="scroll">Midias</a></li>
+                <li><a href='#jogos' className="scroll">Jogos</a></li>
 
             </ul>
         </nav>
-        <i class="fa-solid fa-bars" onClick={toogleMenu}></i>
+        <i className="fa-solid fa-bars" onClick={toogleMenu}></i>
       </header>
         <section aria-label='seção curriculo download Erick' className='section-div'>
             <div>
@@ -58,7 +56,7 @@ export default function Home() {
                 <h2 className='digitando'> {utilsFunctions.TypingEffect('#AvanteAzteca')}</h2>
 
             </div>
-            <img src={picture} alt='imagem de erick viana'/>
+            <img src={picture} alt='imagem do time'/>
         </section>
     </div>
   )

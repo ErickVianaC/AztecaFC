@@ -31,7 +31,7 @@ export default function about() {
               <a href={links.instagram} target="blank">Instagram</a>
             </div>
             <div className='card_services' >
-              <i class="fa-brands fa-youtube"
+              <i className="fa-brands fa-youtube"
                  onClick={() => window.open(links.youtube)}/>
               <a href={links.youtube} target="blank">Youtube</a>
             </div>

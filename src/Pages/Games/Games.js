@@ -21,7 +21,8 @@ export default function games() {
 
             </div>
           </div>
-      <GameCard game={game[0]}/>
+          { <GameCard game={game[game.length - 1]}/>}
+      
     </div>
 
   )

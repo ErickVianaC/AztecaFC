@@ -1,5 +1,5 @@
 import escudoAzteca from '../../images/Time/escudo.png'
-import adversario from '../../images/Adversários/castle-city.png'
+import castle_city from '../../images/Adversários/castle-city.png'
 
 const games = [
     {
@@ -7,15 +7,17 @@ const games = [
         hours: '20:00',
         homeTeamName: 'Azteca',
         homeTeamLogo: escudoAzteca,
-        awayTeamLogo: adversario,
+        awayTeamLogo: castle_city,
         opponent: 'Azteca',
         time: '10/04/2023',
         location: "Campo do Motivo",
         type: "Amistoso",
         weekday: 'SEG',
         day: '10 Abr',
-        nomeAdversario: 'Castle City'
-    }
+        nomeAdversario: 'Castle City',
+        placar: '5 x 8'
+    },
+    
 ]
 
 export default games
