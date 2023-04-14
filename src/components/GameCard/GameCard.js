@@ -1,15 +1,21 @@
 import { useState, useEffect } from "react";
 import "./GameCard.css";
-import utils from "../../utils/Functions/functions"
+import utils from "../../utils/Functions/functions";
 
 function GameCard(props) {
   const { game } = props;
   const [countdown, setCountdown] = useState(utils.getCountdownTime(game.date));
   const [placar, setPlacar] = useState(null);
+  const [finished, setFinished] = useState(false);
 
   useEffect(() => {
     const timer = setInterval(() => {
-      setCountdown(utils.getCountdownTime(game.date));
+      const newCountdown = utils.getCountdownTime(game.date);
+      console.log(newCountdown);
+      setCountdown(newCountdown);
+      if (newCountdown.days <= 0 && newCountdown.hours <= 0 && newCountdown.minutes <= 0 && newCountdown.seconds <= 0) {
+        setFinished(true);
+      }
     }, 1000);
     return () => clearInterval(timer);
   }, [game.date]);
@@ -31,7 +37,10 @@ function GameCard(props) {
         {placar ? (
           <span className="placar">
             <p>PLACAR FINAL</p>
-            {placar}</span>
+            {placar}
+          </span>
+        ) : finished ? (
+          <span className="loading-result">Aguardando resultado...</span>
         ) : (
           <div className="countdown">
             <span className="countdown-time">

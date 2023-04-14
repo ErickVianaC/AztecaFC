@@ -16,10 +16,11 @@ const games = [
         weekday: 'SEG',
         day: '10 Abr',
         nomeAdversario: 'Castle City',
-        placar: '5 x 8'
+        placar: '5 x 8',
+        gols: 'Roger(3), Toddy e Gramelich'
     },
     {
-        date: "2023-04-19 20:00",
+        date: "2023-04-14 18:16",
         hours: '20:00',
         homeTeamName: 'Azteca',
         homeTeamLogo: Azteca,
@@ -31,7 +32,7 @@ const games = [
         weekday: 'QUA',
         day: '19 Abr',
         nomeAdversario: 'Traulitadores',
-        placar: ''//ao preencher o placar nesse formato (1 x 1) o card game irá renderizar o palcar no lugar do contador
+        placar: '',//ao preencher o placar nesse formato (1 x 1) o card game irá renderizar o palcar no lugar do contador
     },
     
 ]

@@ -32,6 +32,11 @@
     justify-content: space-between;
 }
 
+.loading-result {
+  color: #fff;
+  font-size: 1rem;
+}
+
 .teams {
   display: flex;
   align-items: center;
