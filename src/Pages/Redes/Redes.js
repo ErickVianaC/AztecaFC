@@ -5,7 +5,7 @@ import "./Redes.css"
 export default function about() {
 
     const links = {
-        instagram: 'https://www.instagram.com/erickviana.c/',
+        instagram: 'https://www.instagram.com/aztecafc_oficial',
         youtube: 'https://www.youtube.com/channel/UCiexsF31JXG1UFDHiEJkVNA',
     }
 
@@ -25,14 +25,13 @@ export default function about() {
           </div>
 
           <div className='div_services'>
-            <div className='card_services' >
-              <i className="fa-brands fa-instagram"
-                 onClick={() => window.open(links.instagram)}/>
+            <div className='card_services'
+            onClick={() => window.open(links.instagram)} >
+              <i className="fa-brands fa-instagram"                 />
               <a href={links.instagram} target="blank">Instagram</a>
             </div>
-            <div className='card_services' >
-              <i className="fa-brands fa-youtube"
-                 onClick={() => window.open(links.youtube)}/>
+            <div className='card_services'onClick={() => window.open(links.youtube)} >
+              <i className="fa-brands fa-youtube"                 />
               <a href={links.youtube} target="blank">Youtube</a>
             </div>
           </div>
