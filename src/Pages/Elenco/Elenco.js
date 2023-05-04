@@ -23,12 +23,14 @@ class Elenco extends React.Component {
       
       <div className='player_card'>
         <h1>Goleiro</h1>
+        
         <div className='players'>
           {AllPlayers
           .filter((obj) => (obj.position === 'Goleiro'))
           .map((player) => (<PlayerCard player={ player }/>))
            }
         </div>
+
         <h1>Fixo</h1>
         <div className='players'>
           {AllPlayers

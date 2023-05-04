@@ -111,14 +111,6 @@ main .services {
     position: absolute;
     inset: 4px;
     background: #101010;
-    
-    /* width: 190px;
-    height: 190px;
-    border-radius: 10px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: white; */
 }
 
 .div_services div i {
